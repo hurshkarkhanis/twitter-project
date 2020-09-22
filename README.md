@@ -46,11 +46,11 @@ I used [TFIDF Vectorizer, a scikit-learn method](https://scikit-learn.org/stable
 
 I ran five classification models on the tweet vectors. Below is a graph that shows their performance when used with their default paremeters. 
 
-![scores](graphs/default_parameters.png)
+![scores](graphs/default_big.png)
 
 I wanted to tune my hyperparameters with GridSearchCV and I used an [AWS EC2 C5 Instance](https://aws.amazon.com/ec2/instance-types/c5/) to get more computational power. Once I got optimal hyperparemeters for all five models, I ran them on different sample sizes of data to see how each would fare. Below are the results.
 
-![all_scores](graphs/scores.png)
+![all_scores](graphs/scores_big.png)
 
 ## LSTM Neural Network
 
