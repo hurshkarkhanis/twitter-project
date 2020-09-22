@@ -1,4 +1,4 @@
-## Tweet Sentiment Classification
+# Tweet Sentiment Classification
 
 Since my last project was one where I practiced linear regression, I wanted to try something different this time. I dediced to use and tune classification models to classify tweets into categories: positive or negative. I ran five classification models with SKLearn as well as an LSTM recurrent neural network.
 
