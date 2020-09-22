@@ -7,7 +7,7 @@ Since my last project was one where I practiced linear regression, I wanted to t
 
 I worked with a [dataset called 'Sentiment140'](http://help.sentiment140.com/for-students/) that comprised of 1.6 million tweets from the late spring, early summer of 2009, as well as their time stamp, user, tweet ID, and most importantly, their polarity. Polatiry was listed as a 0 if a tweet was negative, 2 if a tweet was neutral, and 4 if it was positive. 
 
-My testing data (data was pre-split into train and test) also came with a column called 'Query' which worked as a categorizer. For example, tweets with a query of 'obama' were about President Barack Obama, those with a query of "at&t" were about the company. 
+My testing data (data was pre-split into train and test) also came with a column called 'Query' which worked as a categorizer. For example, tweets with a query of 'obama' were about President Barack Obama, those with a query of "at&t" were about the company.
 
 Because I had 'query' as well as polarity, I  wanted to see which topics were the most liked and most disliked. Because I had the dates of each tweet, I tried made in inference on why a certain topic was percieived a certain way.
 
@@ -81,5 +81,7 @@ My Logitic Regression and LSTM Neural Network models finished with the best scor
 
 I'd like to dive deeper into my LSTM Neural Network, add more layers, both in an effort to get a higher score and learn more about the model!
 
-I'd also like to do classification projects on multiple classes.
+I'd like to do classification projects on multiple classes.
+
+I'd like to classify tweets by category, instead of by sentiment.
 
