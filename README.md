@@ -9,7 +9,7 @@ I worked with a [dataset called 'Sentiment140'](http://help.sentiment140.com/for
 
 My testing data (data was pre-split into train and test) also came with a column called 'Query' which worked as a categorizer. For example, tweets with a query of 'obama' were about President Barack Obama, those with a query of "at&t" were about the company.
 
-Because I had 'query' as well as polarity, I  wanted to see which topics were the most liked and most disliked. Because I had the dates of each tweet, I tried made in inference on why a certain topic was percieived a certain way.
+Because I had 'query' as well as polarity, I  wanted to see which topics were the most liked and most disliked. Because I had the dates of each tweet, I tried to make an inference on why a certain topic was percieived a certain way.
 
 
 ### Topics with highest mean polarity
