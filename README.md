@@ -5,7 +5,7 @@ Since my last project was one where I practiced linear regression, I wanted to t
 
 ## Data Descripton
 
-I worked with a [dataset from Analytics Vidhya](http://help.sentiment140.com/for-students/) that comprised of 1.6 million tweets from the late spring, early summer of 2009, as well as their time stamp, user, tweet ID, and most importantly, their polarity. Polatiry was listed as a 0 if a tweet was negative, 2 if a tweet was neutral, and 4 if it was positive. 
+I worked with a [dataset called 'Sentiment140'](http://help.sentiment140.com/for-students/) that comprised of 1.6 million tweets from the late spring, early summer of 2009, as well as their time stamp, user, tweet ID, and most importantly, their polarity. Polatiry was listed as a 0 if a tweet was negative, 2 if a tweet was neutral, and 4 if it was positive. 
 
 My testing data (data was pre-split into train and test) also came with a column called 'Query' which worked as a categorizer. For example, tweets with a query of 'obama' were about President Barack Obama, those with a query of "at&t" were about the company. 
 
