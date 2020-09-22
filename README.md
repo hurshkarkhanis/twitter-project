@@ -44,13 +44,30 @@ I used [TFIDF Vectorizer, a scikit-learn method](https://scikit-learn.org/stable
 
 ## Classificaition Models
 
-I ran five classification models on the tweet vectors. Below is a graph that shows their performance when used with their default paremeters. 
+I ran five classification models on the tweet vectors. Below is a table and graph that shows their performance when used with their default paremeters. 
 
-![scores](graphs/default_big.png)
+**Model** | **Accuracy Score** 
+----- | ---- 
+Random Forest Classifier | 0.77
+Gradient Boosting Classifier | 	0.66 
+Decesion Tree Classifier| 0.73
+Logistic Regression | 0.80 
+K - Neighbors | 0.63 
 
-I tuned my hyperparameters with GridSearchCV and I used an [AWS EC2 C5 Instance](https://aws.amazon.com/ec2/instance-types/c5/) to get more computational power. Once I got optimal hyperparemeters for all five models, I ran them on different sample sizes of data to see how each would fare. Below are the results.
 
-![all_scores](graphs/scores_big.png)
+![scores](graphs/final_default.png)
+
+I tuned my hyperparameters with GridSearchCV and I used an [AWS EC2 C5 Instance](https://aws.amazon.com/ec2/instance-types/c5/) to get more computational power. Once I got optimal hyperparemeters for all five models, I ran them on different sample sizes of data to see how each would fare. Below are the results in both table and graph form. 
+
+**Model** | **Score on 100K sample** | **500K sample** | **1M sample** | **1.6M full sample** 
+----- | ---- | ---- | ---- | ---- 
+Random Forest Classifier | 0.747 | 0.774 | 0.715 | 0.680
+Gradient Boosting Classifier | 0.637 | 0.635 |0.554 |0.55
+Decesion Tree Classifier|0.699 |0.718 |0.554 |0.55
+Logistic Regression | 0.788| 0.810| 0.811| 0.813
+K - Neighbors | 0.621 | 0.699 | 0.71 | 0.72
+
+![all_scores](graphs/final_scores.png)
 
 ## LSTM Neural Network
 
