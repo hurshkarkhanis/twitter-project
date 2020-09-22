@@ -62,7 +62,7 @@ K - Neighbors | 0.63
 
 I tuned my hyperparameters with GridSearchCV and I used an [AWS EC2 C5 Instance](https://aws.amazon.com/ec2/instance-types/c5/) to get more computational power. Once I got optimal hyperparemeters for all five models, I ran them on different sample sizes of data to see how each would fare. Below are the results in both table and graph form. 
 
-**Model** | **Score on 100K sample** | **500K sample** | **1M sample** | **1.6M full sample** 
+**Model** | **Score on 100K sample** | **500K sample** | **1M sample** | **1.6M full data** 
 ----- | ---- | ---- | ---- | ---- 
 Random Forest Classifier | 0.747 | 0.774 | 0.715 | 0.680
 Gradient Boosting Classifier | 0.637 | 0.635 |0.554 |0.55
