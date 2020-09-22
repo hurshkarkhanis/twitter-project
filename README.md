@@ -35,9 +35,8 @@ aig | may 10 - may 18 2009 |	paid themselves huge bonuses
 
 ## Class Imbalance
 
-One issue I had to briefly handle was class imbalance. My data was very clean, but I had a very equal number of positive and negative tweets (800K each) and a very small number of neutral tweets (less than 150). Since over or under sampling was not an option, I had to remove the tweets classified as neutral and just work with positives and negatives. Below is a chart showing the extreme data imbalance.
+One issue I had to briefly handle was class imbalance. My data was very clean, but I had a very equal number of positive and negative tweets (800K each) and a very small number of neutral tweets (less than 150). Since over or under sampling was not an option, I had to remove the tweets classified as neutral and just work with positives and negatives.
 
-![imbalance](graphs/balance.png)
 
 ## Vectorizing Tweets
 
@@ -71,5 +70,16 @@ I wanted to explore the idea of an LSTM Neural Network so I trained by tweer dat
   * Loss function: Binary Crossentropy
   
   
+  ![all_scores](graphs/lstm_performance.png)
   
+  
+# Conclusion
+
+My Logitic Regression and LSTM Neural Network models finished with the best scores. 
+
+# Next Steps
+
+I'd like to dive deeper into my LSTM Neural Network, add more layers, both in an effort to get a higher score and learn more about the model!
+
+I'd also like to do classification projects on multiple classes.
 
