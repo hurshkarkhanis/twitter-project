@@ -42,7 +42,7 @@ One issue I had to briefly handle was class imbalance. My data was very clean, b
 
 I used [TFIDF Vectorizer, a scikit-learn method](https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.TfidfVectorizer.html) that cleans text and turns it into numerical vectors, which can then be compared and classified using machine learning models.
 
-## Classificaition Models
+## Classification Models
 
 I ran five classification models on the tweet vectors. Below is a table and graph that shows their performance when used with their default paremeters. 
 
