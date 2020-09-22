@@ -48,13 +48,13 @@ I ran five classification models on the tweet vectors. Below is a graph that sho
 
 ![scores](graphs/default_big.png)
 
-I wanted to tune my hyperparameters with GridSearchCV and I used an [AWS EC2 C5 Instance](https://aws.amazon.com/ec2/instance-types/c5/) to get more computational power. Once I got optimal hyperparemeters for all five models, I ran them on different sample sizes of data to see how each would fare. Below are the results.
+I tuned my hyperparameters with GridSearchCV and I used an [AWS EC2 C5 Instance](https://aws.amazon.com/ec2/instance-types/c5/) to get more computational power. Once I got optimal hyperparemeters for all five models, I ran them on different sample sizes of data to see how each would fare. Below are the results.
 
 ![all_scores](graphs/scores_big.png)
 
 ## LSTM Neural Network
 
-I wanted to explore the idea of an LSTM Neural Network so I trained by tweer data on that. After spending lots of time manipulating/adding/removing layers and epochs I came up with a model whose accuracy was on par with my scikit-learn models and also had a decreasing loss per epoch. Below are the layers I ended up using, and below that is a graph of accuracy and loss. 
+I wanted to explore the idea of an LSTM Neural Network so I trained my tweet data on that. After spending lots of time manipulating/adding/removing layers and epochs I came up with a model whose accuracy was on par with my scikit-learn models and also had a decreasing loss per epoch. Below are the layers I ended up using, and below that is a graph of accuracy and loss. 
 
   * Sequential Model
   * Embedding Layer
