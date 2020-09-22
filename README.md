@@ -79,9 +79,9 @@ My Logitic Regression and LSTM Neural Network models finished with the best scor
 
 # Next Steps
 
-I'd like to dive deeper into my LSTM Neural Network, add more layers, both in an effort to get a higher score and learn more about the model!
+* Dive deeper into my LSTM Neural Network, add more layers, both in an effort to get a higher score and learn more about the model!
 
-I'd like to do classification projects on multiple classes.
+* Do classification projects on multiple classes.
 
-I'd like to classify tweets by category, instead of by sentiment.
+* Classify tweets by category, instead of by sentiment.
 
