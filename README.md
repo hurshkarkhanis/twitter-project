@@ -12,7 +12,7 @@ My testing data (data was pre-split into train and test) also came with a column
 Because I had 'query' as well as polarity, I  wanted to see which topics were the most liked and most disliked. Because I had the dates of each tweet, I tried made in inference on why a certain topic was percieived a certain way.
 
 
-### Most well recieved topics
+### Topics with highest mean polarity
 Topic | Date | Why
 ----- | ---- | ----
 kindle2 |  may 11 - jun 10 2009 | came out few months ago
@@ -22,7 +22,7 @@ danny_gokey | may 13 2009 |	appearance on American Idol
 
 *Obama was new, Lebron was popular, and Idol was huge. Good times.*
 
-### Least well recieved topics
+### Topics with lowest mean polarity
 Topic | Date | Why
 ----- | ---- | ----
 iran |  june 14 2009 | 2009 election protests
