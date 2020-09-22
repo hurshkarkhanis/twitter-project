@@ -23,7 +23,7 @@ obama | 	May 10 2009 |	WHCD funny speech
 lebron| May 11 2009 | 	47 points in playoff game
 danny_gokey | May 13 2009 |	appearance on American Idol
 
-*Obama was new, Lebron was popular, and Idol was huge. Good times.*
+*Obama was new, Lebron had hair, and Idol was huge. Good times.*
 
 ### Topics With Lowest Mean Polarity
 Topic | Date | Why
