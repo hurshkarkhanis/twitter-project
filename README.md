@@ -1,9 +1,6 @@
 # Twitter Sentiment Classification
 
 
-![rt](graphs/retweet-icon-6.png)
-
-
 ## Business Application
 
 Given our current social and political climate, I have noticed that social media companies have been working to [classify and tag posts](https://www.bbc.com/news/technology-52815552) that contain hate speech or misinformation to lightly moderate their content.
