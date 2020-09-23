@@ -72,6 +72,11 @@ K - Neighbors | 0.621 | 0.699 | 0.71 | 0.72
 
 ![all_scores](graphs/final_scores.png)
 
+I also created a confusion matrix to specify exactly how many predictions were accurate and how many were not. The matrix is below.
+
+![conf_matrix](graphs/confusion_matrix.png)
+
+
 ## LSTM Neural Network
 
 I wanted to explore the idea of an LSTM Neural Network so I trained my tweet data on that. After spending lots of time manipulating/adding/removing layers and epochs I came up with a model whose accuracy was on par with my scikit-learn models and also had a decreasing loss per epoch. Below are the layers I ended up using, and below that is a graph of accuracy and loss. 
