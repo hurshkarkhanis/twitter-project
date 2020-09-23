@@ -3,7 +3,16 @@
 
 ![rt](graphs/retweet-icon-6.png)
 
-Since I practiced linear regression in my last project, I wanted to try something different this time. I decided to use and tune classification models to classify tweets into categories: positive or negative. I ran five classification models with SKLearn as well as an LSTM recurrent neural network.
+
+## Business Application
+
+Given our current social and political climate, I have noticed that social media companies have been working to [classify and tag posts](https://www.bbc.com/news/technology-52815552) that contain hate speech or misinformation to lightly moderate their content.
+
+Since I am interested in how text classification works, I decided to run machine learning models to classify tweets into two sentiment categories: positive or negative.
+
+I can imagine this being useful for companies that are looking to inform their users about the content they see on their site.
+
+I ran five classification models with SKLearn as well as an LSTM recurrent neural network.
 
 
 ## Data Descripton
@@ -105,8 +114,6 @@ My Logitic Regression and LSTM Neural Network models finished with the best scor
 # Next Steps
 
 * Dive deeper into my LSTM Neural Network, add more layers, both in an effort to get a higher score and learn more about the model!
-
-* Do classification projects on multiple classes.
 
 * Classify tweets by category, instead of by sentiment.
 
